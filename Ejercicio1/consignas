@@ -1,0 +1,3 @@
+Instrucciones:
+  - docker run -d -p 8000:80 -v ~/nginx-html:/usr/share/nginx/html --name html-nginx nginx
+  - abro localhost:8000
