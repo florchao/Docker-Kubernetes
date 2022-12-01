@@ -6,3 +6,5 @@ c4e5dae7115d   5021b0410677                     "ruby app.rb -o 0.0.…"   3 min
 e7db78e353f1   b30ba4516116                     "ruby app.rb -o 0.0.…"   3 minutes ago   Up 3 minutes                            k8s_pingapp_pingapp_default_e18a87a4-2420-45ad-a1ce-05093bd512a3_4
 
 Esta basado en las imagenes: nicopaez/jobvacancy-ruby:1.3.0 y postgres:14.4-alpine, que incluyen la de ruby
+
+Se leen entre los contenedores, porque utilizan el sistema operativo de la computadora y se pueden comunicar entre ellos a través de él
